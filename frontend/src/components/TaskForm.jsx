@@ -51,7 +51,7 @@ const TaskForm = ({ tasks, setTasks, editingTask, setEditingTask }) => {
       />
       <input
         type="text"
-        placeholder="Description"
+        placeholder="Description/Location - Please be as detailed as possible"
         value={formData.description}
         onChange={(e) => setFormData({ ...formData, description: e.target.value })}
         className="w-full mb-4 p-2 border rounded"
