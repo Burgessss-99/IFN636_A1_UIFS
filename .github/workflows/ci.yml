@@ -1,12 +1,9 @@
 name: Backend CI
 
-
-
 on:
   push:
     branches:
       - main  # Trigger CI on pushes to the main branch
-
 
 jobs:
   test:
@@ -16,7 +13,6 @@ jobs:
     strategy:
       matrix:
         node-version: [22] # Test on multiple Node.js versions
-
 
     environment: MONGO_URI
 
@@ -60,7 +56,6 @@ jobs:
         yarn install
         yarn run build
 
-
     # Run backend tests
     - name: Run Backend Tests
       env:
@@ -78,6 +73,5 @@ jobs:
         echo "${{ secrets.PROD }}" > .env
 
     - run: pm2 start all
-
 
     - run: pm2 restart all
