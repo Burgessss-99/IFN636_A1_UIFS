@@ -92,3 +92,29 @@ We will send you an email to choose a Real-World project. If you face any diffic
 * Adherence to Git best practices and practical contributions.
 * Successful implementation, deploymentand CI/CD pipeline.
 * Problem-solving skills and the ability to go beyond basic requirements.
+
+
+README.md
+Project Setup Instructions:
+1. Clone the Repository
+  - git clone https://github.com/Burgessss-99/IFN636_A1_UIFS
+  Navigate to folder
+  - cd IFN636_A1_UIFS
+
+2. Backend Setup
+  - cd backend
+  - npm run install-all
+  
+3. Frontend Setup
+  - cd ../frontend
+  - npm install
+  - npm start
+
+Public URL of your Project:
+- http://3.106.60.41
+
+Project Specific Username:
+- Not required as you can sign up with a generic email to access full functionality.
+- However if there are issues you can used
+  - Username: rhysburgess44@gmail.com
+  - Password: password  
